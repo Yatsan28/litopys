@@ -1,0 +1,26 @@
+.App {
+    margin: 0 auto;
+    width: 1070px;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+.Menu li {
+  text-decoration: none;
+}
+
+.NavLink {
+  color: #333;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.catalog {
+  
+}
+
