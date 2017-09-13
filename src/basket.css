@@ -1,0 +1,195 @@
+
+.basket {
+
+}
+
+.bookPage{
+
+
+}
+
+.bookPage-container {
+  display: flex;
+  justify-content: center;	
+  justify-content: space-around;
+  background-color: #367d56  /*#2d6b22 #52a147*/;
+  min-width: 100%;
+  height: 460px;
+  margin: 0 auto;
+}
+
+.bookPage-topper {
+  display: flex;
+  justify-content: flex-start;	
+  justify-content: space-around;
+  width: 1070px;
+}
+
+.bookTopper-cover {
+  display: flex;
+  margin-top: 30px;
+}
+.books-cover {
+  display: flex;
+  height: 500px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.bookTopper-hgroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 0.05;
+  color: #dfef89;
+}
+
+.prise {
+	display: inline-table;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Link-basket {
+  display: flex;
+  flex-direction: column;
+  color: #dfef89 /*#e1cfb2*/;
+  width: 100px;
+  height: 35px;
+  border-radius: 15px;
+  border: solid #242031 0.1em;
+  background: #182932 /*#242031*/;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.annotation {
+	display: flex;
+	flex-direction: flex-end;
+	flex-direction: column;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.annotation-buttonBlock {
+  display: flex;
+  flex-direction: row;
+  flex-direction: center;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.annotation-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 60px;
+
+}
+
+.button-content {
+  width: 170px;
+  height: 35px;
+  border: solid #182932 1px;
+  border-radius: 15px;
+  background-color: #182932;
+  color: #dfef89;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 7px;
+  font-size: 14px;
+}
+
+.button-fragment{
+  width: 170px;
+  height: 35px;
+  border: solid #182932 1px;
+  border-radius: 15px;
+  background-color: #182932;
+  color: #dfef89;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-top: 7px;
+  font-size: 14px;
+}
+
+.buttons-share {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+.fb {
+  background: url('../src/Catalog/img/fb.png') no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.google {
+  background: url('../src/Catalog/img/g+.png') no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.twi {
+  background: url('../src/Catalog/img/twi.png') no-repeat ;
+  width: 40px;
+  height: 40px;
+}
+
+.annotation-textBlock {
+
+}
+
+.annotation-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.annotation-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 25px;
+  letter-spacing: 1.5px;
+  text-align: justify;
+  text-indent: 25px; 
+  line-height: 1.7;
+}
+
+.annotation-3 {
+  display: flex;
+  flex-direction: column;
+  flex-direction: flex-start;
+  letter-spacing: 1.5px;
+  line-height: 1.7;
+}
+
+.rewiew {
+	display: flex;
+	flex-direction: column;
+	flex-direction: center;
+	width: 1070px;
+	height: 250px;
+	margin: 0 auto;
+	background-color: #cec9c6;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+

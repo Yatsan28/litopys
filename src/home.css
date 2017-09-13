@@ -1,0 +1,163 @@
+html {
+ font-family: "Surveyor display A", "Surveyor Display B", Georgia, Times, serif;
+  margin: 0 auto;  
+}
+
+.banner {
+  background: url('../src/banner.jpg') no-repeat bottom center / cover;
+  margin: 0;
+  min-width: 100%;
+  height: 450px;
+}
+
+.banner-content {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 135px;
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: #dfef89;  /* #e6d3aa; #e1cfb2; #bd9861; #D5B45B;*/
+}
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1070px;
+  min-width: 430px;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+.tittle {
+  font-size: 20px;
+  color: #341b14;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*сітка і стилі блоку "незабаром вийде з друку, новинки"*/
+
+.newBooks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.newBooks-wrap {
+  display: flex;
+}
+
+.newBooks-cnteiner {
+ 
+}
+
+.newBooks-content {
+  margin-left: 40px;
+}
+
+.content-1 {
+  background-color: silver;
+  width: 210px;
+  height: 260px;
+}
+
+.newBooks-img {
+  margin: auto;
+  width: 210px;
+  height: 360px;
+}
+
+
+/*сітка блоку "бестселери"*/
+
+*{
+  box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row-wrap {
+  flex-flow: row wrap;
+}
+
+.bit-12 {
+  width: 65%;
+}
+
+.bit-2 {
+  width: 50%;
+}
+
+.bit-21 {
+  width: 35%;  
+}
+
+.bit-1 {
+  width: 100%;
+}
+
+.bit-1,
+.bit-2 {
+  height: 300px;  
+}
+
+.bit-3 {
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+.img {
+  padding-left: 40px;
+}
+.big-img {
+  margin: auto;
+  margin-top: 35px;
+  width: 325px;
+  height: 600px;
+}
+
+.img-1 {
+  margin: auto;
+  padding-left: 55px;
+  width: 250px;
+  height: 350px;
+}
+
+/* дод. стилізація */
+.wrap {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+[class*="bit-"] {  
+  padding: 0.2rem;
+}
+
+.bit-12,
+.bit-21 {
+  background: transparent;
+  padding-bottom: 0;
+}
+
+.img-container {
+   background-color: transparent;
+    height: 100%;
+}
+
+.img {
+  width: 250px;
+  height: 350px;
+  vertical-align: middle;
+}
+
+
+
+
