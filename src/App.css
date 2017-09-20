@@ -23,32 +23,48 @@ nav {
   display: flex;
   width: 1070px;
   margin-top: 50px;
+  
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
 }
 
 .topmenu > li {
-  width: 25%;
-  float: left;
+  width: 100%;
+  /*float: left;*/
   position: relative;
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.howTobuy {
+  margin-right: 70px;
+}
+.about {
+  margin-right: 30px;
+}
+
 .Nav-Link {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   justify-content: space-around;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 12px;
   color: #341b14;
-  padding: 15px 30px;
 }
 
-.topmenu > li:hover > .Nav-Link, .submenu li:hover .Nav-Link {
+.topmenu > li:hover > .Home > .Nav-Link, 
+.topmenu > li:hover > .catalog > .Nav-Link,
+.topmenu > li:hover > .howTobuy > .Nav-Link,
+.topmenu > li:hover > .about > .Nav-Link,
+.topmenu > li:hover > .community > .Nav-Link,
+.topmenu > li:hover > .basket > .Nav-Link,     
+.submenu-table td:hover .sub-link {
   color: #D5B45B;
 }
 
@@ -57,31 +73,51 @@ nav ul {
   font-family: "FontAwesome";
   color: inherit;
 }
-.submenu {
+.submenu-table {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 20px;
   background: rgba(64,64,66, 0.8);
   position: absolute;
+  vertical-align: center;
+  text-align: bottom;  
   left: 0;
   top: 100%;
   z-index: 5;
-  width: 100%;
-  margin: 0 auto;
   opacity: 0;
   transform: scaleY(0);
   transform-origin: 0 0;
   transition: .5s ease-in-out;
-}
-.submenu .Nav-Link {
-  color: #cec9c6;
-  text-align: center;
-  padding: 12px 15px;
-  font-size: 13px;
+
 }
 
-.topmenu > li:hover .submenu {
+.table-tittle {
+  padding: 15px;
+  font-size: 15px;
+  vertical-align: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #D5B45B;
+
+}
+
+.sub-link {
+  display: block;
+  text-decoration: none;
+
+}
+
+.submenu-table .sub-link {
+  color: #cec9c6;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.topmenu > li:hover .submenu-table {
   opacity: 1;
   transform: scaleY(1);
 }
-
 
 
 .search {
@@ -89,7 +125,6 @@ nav ul {
   font-family: 'FontAwesome', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
-  display: inline-flex;
   font-family: "Lato";
   font-weight: 20;
   border: none;

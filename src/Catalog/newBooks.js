@@ -1,4 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
+import {
+BrowserRouter as Router,
+Switch,
+NavLink,
+Route } from 'react-router-dom'
 
 const newBooks = () => (
   <div>

@@ -7,7 +7,7 @@
 .tittle {
   display: flex;
   justify-content: center;
-  margin: 50px;
+  margin: 40px;
 }
 
 .items {
@@ -17,6 +17,7 @@
 }
 
 img {
+  margin-bottom: -100px;
 	padding-bottom: 100px;
 	height: 450px;
 	width: 290px;
@@ -25,7 +26,7 @@ img {
 .view {
   margin: 10px;
   float: left;
-  border: 10px solid #fff;
+  border: 10px solid transparent;
   overflow: hidden;
   position: relative;
   text-align: center;
