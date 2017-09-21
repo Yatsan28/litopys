@@ -6,7 +6,6 @@ Router } from 'react-router-dom'
 class Robinson extends Component {
   render () {
     return(
-      <Router>
       <div className="Robinson">
         <div>
           <h3>Robinson</h3>
@@ -18,7 +17,6 @@ class Robinson extends Component {
           </div>
         </div>
       </div>
-      </Router>
     )
   }
 }

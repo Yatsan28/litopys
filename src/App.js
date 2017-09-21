@@ -219,7 +219,7 @@ class App extends Component {
           
           <div>
           <Route exact path="/" component={Home}/>
-            <Route exact path="/bestsellers" component={Bestsellers}/>
+            <Route path="/bestsellers" component={Bestsellers}/>
             <Route exact path="/istoriya" component={History}/>
             <Route exact path="/filosofiya-ta-pravo" component={Philosophy}/>
             <Route path="/novinki" component={newBooks}/>
