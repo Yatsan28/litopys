@@ -12,7 +12,7 @@ class Robinson extends Component {
           <div className="block-content"></div>
             <div className="bookPage">
               <div className="bookPage-topper">
-               <p>gtfrh</p>
+               <p>Robinson</p>
             </div>
           </div>
         </div>

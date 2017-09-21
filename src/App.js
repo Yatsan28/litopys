@@ -6,8 +6,6 @@ import {
   NavLink
 } from 'react-router-dom'
 
-
-
 import Home from "./Home"
 import Bestsellers from "./Catalog/Bestsellers"
 import History from "./Catalog/History"
@@ -27,11 +25,12 @@ import Scandinavian from "./Catalog/Scandinavian"
 import Education from "./Catalog/Education"
 import Culturology from "./Catalog/Culturology"
 import ItalySerbCroatLiterature from "./Catalog/ItalySerbCroatLiterature"
-/*import Robinson from "./Catalog/Robinson"
+import Robinson from "./Catalog/Robinson"
 import OrangeGirl from "./Catalog/OrangeGirl"
 import Lviv2 from "./Catalog/Lviv2"
 import Lviv4 from "./Catalog/Lviv4"
-import Power from "./Catalog/Power"*/
+import Power from "./Catalog/Power"
+import Kaku from "./Catalog/Power"
 
 import Buy from "./Buy"
 import About from "./About"
@@ -219,7 +218,13 @@ class App extends Component {
           
           <div>
           <Route exact path="/" component={Home}/>
-            <Route path="/bestsellers" component={Bestsellers}/>
+            <Route exact path="/bestsellers" component={Bestsellers}/>
+            <Route  path="/bestsellers/robinson" component={Robinson}/>
+            <Route  path="/bestsellers/pomarancheva-divchynka" component={OrangeGirl}/>
+            <Route  path="/bestsellers/encyklopediya-lvova-t-4" component={Lviv4}/>
+            <Route  path="/bestsellers/encyklopediya-lvova-t-2" component={Lviv2}/>
+            <Route  path="/bestsellers/grebeni-polumya" component={Power}/>
+            <Route  path="/bestsellers/fizyka-maybutnogo" component={Kaku}/>
             <Route exact path="/istoriya" component={History}/>
             <Route exact path="/filosofiya-ta-pravo" component={Philosophy}/>
             <Route path="/novinki" component={newBooks}/>

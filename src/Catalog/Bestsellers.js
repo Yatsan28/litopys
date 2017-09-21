@@ -112,18 +112,7 @@ class Bestsellers extends Component {
               </div>
             </div>
           </div>
-        </div> 
-
-        
-          <Switch>
-          <Route  path="/bestsellers/robinson" component={Robinson}/>
-          <Route  path="/bestsellers/pomarancheva-divchynka" component={OrangeGirl}/>
-          <Route  path="/bestsellers/encyklopediya-lvova-t-4" component={Lviv4}/>
-          <Route  path="/bestsellers/encyklopediya-lvova-t-2" component={Lviv2}/>
-          <Route  path="/bestsellers/grebeni-polumya" component={Power}/>
-          <Route  path="/bestsellers/fizyka-maybutnogo" component={Kaku}/>
-          </Switch>
-        
+        </div>        
       </div>
     )
   }
