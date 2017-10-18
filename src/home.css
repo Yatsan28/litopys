@@ -1,7 +1,3 @@
-html {
- font-family: "Surveyor display A", "Surveyor Display B", Georgia, Times, serif;
-  margin: 0 auto;  
-}
 
 .banner {
   background: url('../src/banner.jpg') no-repeat bottom center / cover;
@@ -15,8 +11,19 @@ html {
   text-align: center;
   padding-top: 135px;
   font-size: 35px;
-  letter-spacing: 3px;
-  color: #dfef89;  /* #e6d3aa; #e1cfb2; #bd9861; #D5B45B;*/
+  /*letter-spacing: 3px;
+  /*color: #dfef89;  /* #e6d3aa; #e1cfb2; #bd9861; #D5B45B;*/
+}
+.baner-tittle {
+  font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+ font-weight: normal;
+ font-size: 2em;
+ letter-spacing: .2em;
+ line-height: 1.1em;
+ margin:0px;
+ text-align: center;
+ text-transform: uppercase;
+ color: #dfef89
 }
 
 .main {
@@ -45,10 +52,6 @@ html {
 
 .newBooks-wrap {
   display: flex;
-}
-
-.newBooks-cnteiner {
- 
 }
 
 .newBooks-content {

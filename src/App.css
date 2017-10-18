@@ -1,12 +1,12 @@
 html {
- font-family: "Surveyor display A", "Surveyor Display B", Georgia, Times, serif;
+ font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
   margin: 0 auto;  
 }
 
 .App {
-    margin: 0 auto;
-    width: 100%;
-    min-height: calc(100vh - 70px);
+  margin: 0 auto;
+  width: 100%;
+  min-height: calc(100vh - 70px);
 }
 
 .TopBar {
@@ -22,7 +22,7 @@ nav {
 .topmenu {
   display: flex;
   width: 1070px;
-  margin-top: 50px;
+  margin-top: 35px;
   
 }
 
@@ -37,7 +37,7 @@ nav ul {
   width: 100%;
   /*float: left;*/
   position: relative;
-  font-family: "Roboto Condensed", sans-serif;
+  /*font-family: "Roboto Condensed", sans-serif;*/
 }
 
 .howTobuy {
@@ -70,7 +70,7 @@ nav ul {
 
 .submenu-link:after {
   content: " ";
-  font-family: "FontAwesome";
+  /*font-family: "FontAwesome";*/
   color: inherit;
 }
 .submenu-table {
@@ -175,43 +175,3 @@ nav ul {
 }
 
 
-.footer {
-  display: flex;
-  justify-content: center;
-  height: 350px;
-  background-color: #dfef89 /*#242031*/;
-}
-
-.footerBlock {
-  width: 1070px;
-  display: flex;
-  justify-content: center;
-  
-  
-}
-
-.footerBlock-contacts {
-  display: flex;
-  color: #182932;
-
-}
-
-.footerBlock-subscribtion {
-  display: flex;
-}
-
-.footerBlock-partners {
- display: flex;
- 
-}
-
-.footerBlock-partners-img img{
- display: flex;
-  margin: auto;
-  width: 150px;
-  height: 100px;
-}
-
-.footerBottom-tittle {
-  
-}

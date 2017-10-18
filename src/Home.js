@@ -28,7 +28,7 @@ class Home extends Component {
        <div className="banner-conteiner">
         <div className="banner">
           <div className="banner-content">
-            <h1>Літопис</h1>
+            <h1 className="baner-tittle">Літопис</h1>
           </div>
         </div>
       </div>

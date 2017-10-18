@@ -1,0 +1,142 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  background-color: #dfef89 /*#242031*/;
+  color: #182932;
+}
+
+.footerBlock {
+  display: flex;
+  justify-content: center; 
+}
+.wrap-1{
+  display: flex;
+  flex-direction: column;
+
+}
+.wrap-2 {
+  display: flex;
+  flex-direction: row;
+}
+.footerBlock-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+}
+
+.footerBlock-contacts {
+  text-decoration: none;
+  font-size: 14px;
+
+}
+.downloadPrise {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  border: solid 1px #182932;
+  background-color: #182932;
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.footerBlock-inNetworks{
+ display: flex;
+ flex-direction: column;
+}
+
+.footerBlock-subscribtion {
+  margin-right: 100px;
+}
+
+.inFB {
+  width: 120px;
+  height: 30px;
+  padding: 5px 25px;
+  border: 1px solid #3b5b9b;
+  border-radius: 10px;
+  background-color: #3b5b9b;
+  
+}
+
+.inYoutube {
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 5px 30px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  background-color: #ff0000;
+  
+}
+
+.communityLink {
+  color: white;
+  text-decoration: none;
+}
+
+.partnersLink {
+  text-decoration: none;
+}
+.footerBlock-subscribtion {
+ 
+}
+.footer-emeil {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background-color: rgb(223,239,137);
+}
+
+.footer-emeil:focus{
+  border-bottom: 2px solid #16a085;
+
+  color: #242031;
+  transition: 0.2s ease;
+}
+
+.footer-submit{
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.footer-emeil:hover,
+.footer-emeil:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.footer-emeil:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+
+  transition: 0.1s ease;
+}
+
+.footerBottom-tittle {
+  display: flex;
+  justify-content: center;
+}

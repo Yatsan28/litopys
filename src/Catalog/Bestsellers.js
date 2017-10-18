@@ -5,12 +5,12 @@ Switch,
 NavLink,
 Route } from 'react-router-dom'
 
-import Robinson from './Robinson'
+/*import Robinson from './Robinson'
 import OrangeGirl from './OrangeGirl'
 import Lviv4 from './Lviv4'
 import Lviv2 from './Lviv2'
 import Power from './Power'
-import Kaku from './Kaku'
+import Kaku from './Kaku'*/
 
 import './catalog.css'
 
@@ -26,6 +26,7 @@ class Bestsellers extends Component {
     return(
       
       <div className="conteiner">
+
       <div className="tittle">
         <h1>Бестселери</h1>
       </div>
@@ -112,18 +113,20 @@ class Bestsellers extends Component {
               </div>
             </div>
           </div>
-        </div> 
+          
+        </div>
         
-          <Switch>
-          <Route exact path="/bestsellers/robinson" component={Robinson}/>
-          <Route  path="/bestsellers/pomarancheva-divchynka" component={OrangeGirl}/>
-          <Route  path="/bestsellers/encyklopediya-lvova-t-4" component={Lviv4}/>
-          <Route  path="/bestsellers/encyklopediya-lvova-t-2" component={Lviv2}/>
-          <Route  path="/bestsellers/grebeni-polumya" component={Power}/>
-          <Route  path="/bestsellers/fizyka-maybutnogo" component={Kaku}/>
-          </Switch>
+
+       
         
+        
+       
+       
+        
+       
+
       </div>
+
     )
   }
 }
